@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <html lang="en">
+       
+<style>
+           *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       }
+          .section {
+              
+        height: 100vh;
+    }
+    #section-1{
+           background-color: cadetblue;
+           height: 100vh;
+       }    
+     #section-2{
+           background-color: beige;
+           height: 100vh;
+       }    
+     #section-3{
+           background-color: crimson;
+           height: 100vh;
+       }    
+
+           </style>
+  
+
+    <head>
+        <title> Your Success start here</title>
+        
+    </head>
+    
+    <body>
+      <nav class="main navigation">
+    
+    <section id="section-1" class="section">
+        
+    </section>
+         <section id="section-2" class="section">
+        
+    </section>
+         <section id="section-3" class="section">
+        
+    </section>
+          
+      </nav>  
+        
+    </body>
+    
+   </html>

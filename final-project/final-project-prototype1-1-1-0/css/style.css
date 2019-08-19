@@ -40,6 +40,17 @@ footer {
     padding-bottom: 0.3em;
 }
 
+div {
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+}
+.article-first-words {
+    width: 500px;
+    height: 20px;
+    background-color: red;
+}
+
 /*
 Navigation
 */
@@ -82,6 +93,9 @@ header {
 footer {
     background-color: rgb(60, 70, 80);
     color: rgb(100,200,300);
+}
+div {
+    background-color: red;
 }
 
 /*
