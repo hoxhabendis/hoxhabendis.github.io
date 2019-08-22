@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+
+<head>
+    <title>Document Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+               color: #fff;
+               background-color: darkblue;
+               font-size: 1.5em;
+        }
+        #desktop-nav {
+        display: none;
+        }
+        nav.main-navigation {
+    text-transform: uppercase
+}
+
+        nav.main-navigation ul {
+    text-align: center;
+}
+
+        nav.main-navigation ul li {
+    display: inline-block;
+}
+
+        nav.main-navigation ul li a {
+    padding: 2px 8px;
+    text-decoration: underline overline dotted red;
+    color: white; background-color: da); 
+    font-weight: 600;
+}
+        
+nav.main-navigation ul li a:hover {
+color: #fff;
+background-color: darkblue;
+}
+        
+   /*----------------
+   Responsive Design
+   ----------------*/     
+        @media only screen and (min-width: 600px) {
+        #desktop-nav {
+        display: block; 
+                }  
+                    body {
+            background-color: green;
+        }
+        #mobile-nav {
+        display: none;
+        }
+         
+            nav.main-navigation {
+    text-transform: uppercase
+}
+
+nav.main-navigation ul {
+    text-align: center;
+}
+
+nav.main-navigation ul li {
+    display: inline-block;
+}
+
+nav.main-navigation ul li a {
+    padding: 2px 8px;
+    text-decoration: none;
+    color: rgb(210,220,230); background-color: rgb(80, 90, 100); 
+    font-weight: 600; 
+}
+            
+nav.main-navigation ul li a:hover {
+color: darkkhaki;
+background-color: rgb(255, 128,0);
+}
+    
+    </style>
+
+<script>
+    
+var minHeight = 40;
+var maxHeight = 195; 
+   
+function toggleMobileNav() {
+var x = document.getElementById("mobile-nav");
+ if (x.style.height === maxHeight + "px") {
+    x.style.height = minHeight + "px";
+  } else {
+    x.style.height = maxHeight + "px";
+  }
+    </script>
+    
+</head>
+
+<body>
+
+    <header>
+       
+        <h1>The Alternative Medicine: The cupping Therapy</h1>
+        
+        <div id="burger-icon" onclick="toggleMobileNav()">
+            
+        </div>
+
+        <nav id="mobile-nav"></nav>
+        <nav id="navbar"></nav>
+        
+      <h2></h2>
+        <nav class="main-navigation">
+            <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Treatments.html">Treatments</a></li>
+        <li><a href="#">Workshop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section>
+
+    <p>
+        Wet Cupping has been practiced for many thousands of years all over the world by many different cultures. Earliest records in history show the art of Cupping being used in China and Egypt. 
+
+
+
+During the advent of Islam Prophet Muhammad (sallallahu alaihi wasallam) refined Wet Cupping Therapy (Hijama) making it an Islamic discipline in its own right surrounded by rules and regulations particular to Islam only. 
+
+Islam greatly encourages the use of Hijama Therapy as a therapeutic and remedial treatment. Hijama works by creating a negative pressure in the applied area, thus relieving pain and pressure. 
+
+Hijama Therapy rids the body of harmful pathogens by drawing out the excess blood lying dormant underneath the skin. Research has shown considerable pathological differences in the healthy blood in the veins and the stagnant blood underneath the skin. 
+
+Hijama forces the body to increase its blood circulation and boosts the immune system allowing the body to use its natural resources to heal itself. It is a natural way to alleviate pain and treatment many illnesses. 
+
+We believe prevention is better than cure. Hijama Therapy is one of the best ways to avert illnesses and maintain good health. Today's diet and lifestyle choices are paramount in determining our risk for disease in the future. Combination of a healthy diet, regular exercise and having Hijama regularly can help prevent the occurence of illnesses in the future. 
+
+At Simply Hijama we want people to know how great this form of treatment really is! We want more people to use Hijama Therapy as a first port of call for illnesses, pain and even as a preventative measure.
+    </p>
+    
+    </section>
+    
+    <aside>
+
+    </aside>
+
+
+    <footer>
+        <p>
+            &copy; 2019
+        </p>
+    </footer>
+
+</body>
+
+</html>

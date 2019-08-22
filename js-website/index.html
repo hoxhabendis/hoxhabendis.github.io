@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+    h1 {
+        color: darkred;
+    }
+    h2 {
+        color: darkblue;
+    }
+        h4 {
+        color: darkblue;
+    }
+            #navbar {
+        display: none; 
+                }  
+    #topnav {
+        display:block; 
+                }  
+    
+.navbar {
+  overflow: hidden;
+  background-color: darkred;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: inherit;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: darkslateblue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: darkcyan;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+    
+   /*----------------
+   Responsive Design, mobile first
+   ----------------*/     
+    @media only screen and (min-width: 480px) {
+    #navbar {
+    display: block; 
+                }  
+    #topnav {
+        display: none; 
+                }  
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+        }
+        @media only screen and (min-width: 1920px) {
+            
+            }
+        }
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+    
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+  position: relative;
+
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: darkred;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: darkred;
+  color: white;
+}
+
+</style>
+</head>
+<body> 
+        <nav id="topnav"></nav>
+        <nav id="navbar"></nav>
+
+<div class="topnav">
+  <a href="#home" class="active"></a>
+  <div id="myLinks">
+    <a href="#Home">Home</a>
+    <a href="#Treatments">Treatments</a>
+    <a href="#workshop">workshop</a>
+       <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>   
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Treatments </button>
+    <div class="subnav-content">
+      <a href="#back">Back Pain</a>
+      <a href="#Head">Headache</a>
+      <a href="#neck">Neck Pain</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Workshop</button>
+    <div class="subnav-content">
+      <a href="#Berlin">Berlin</a>
+      <a href="#Postdam">Postdam</a>
+      <a href="#Brandenburg">Brandenburg</a>
+      <a href="#Leipzig">Leipzig</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">About </button>
+
+  </div>
+  <a href="#contact">Contact</a>
+</div>
+
+<div style="padding:0 26px">
+  <h1>The Alternative Medicine: The cupping Therapy</h1>
+  
+  <section>
+      <h2> Cupping Therapy
+</h2>
+<h3></h3>
+<img src="img/red-blood-cells-3188223_900-768x512.jpg" alt="Trulli" width="500" height="333">
+ <p>
+     Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin for a few minutes to create suction. People get it for many purposes, including to help with pain, inflammation, blood flow, relaxation and well-being, and as a type of deep-tissue massage.
+
+<p>The cups may be made of:</p>
+
+ <ul>
+          <li>Glass</li>
+          <li>Bamboo</li>
+          <li>Earthenware</li>
+          <li>Silicone</li>
+        </ul>
+
+Cupping therapy might be trendy now, but it’s not new. It dates back to ancient Egyptian, Chinese, and Middle Eastern cultures. One of the oldest medical textbooks in the world, the Ebers Papyrus, describes how the ancient Egyptians used cupping therapy in 1,550 B.C.
+
+<h4>Types</h4>
+<p>There are different methods of cupping, including:
+</p>
+<ul>
+<li>Dry </li>
+<li>Wet </li>
+</ul>
+<p>During both types of cupping, your therapist will put a flammable substance such as alcohol, herbs, or paper in a cup and set it on fire. As the fire goes out, he puts the cup upside down on your skin.</p>
+<p>As the air inside the cup cools, it creates a vacuum. This causes your skin to rise and redden as your blood vessels expand. The cup is generally left in place for up to 3 minutes.</p>
+
+<p>A more modern version of cupping uses a rubber pump instead of fire to create the vacuum inside the cup. Sometimes therapists use silicone cups, which they can move from place to place on your skin for a massage-like effect.</p>
+
+<p>Wet cupping creates a mild suction by leaving a cup in place for about 3 minutes. The therapist then removes the cup and uses a small scalpel to make light, tiny cuts on your skin. Next, he or she does a second suction to draw out a small quantity of blood.</p>
+
+<p>You might get 3-5 cups in your first session. Or you might just try one to see how it goes. It’s rare to get more than 5-7 cups, the British Cupping Society notes.</p>
+
+<p>Afterward, you may get an antibiotic ointment and bandage to prevent infection. Your skin should look normal again within 10 days.</p>
+
+<p>Cupping therapy supporters believe that wet cupping removes harmful substances and toxins from the body to promote healing. But that’s not proven.</p>
+
+<p>Some people also get “needle cupping,” in which the therapist first inserts acupuncture needles and then puts cups over them.</p>
+
+  </section>
+  <p></p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+ 
+   
+    <footer>
+        <p>
+            &copy; Bhoxha, 2019
+        </p>
+    </footer>
+</body>
+</html>
