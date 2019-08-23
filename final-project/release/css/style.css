@@ -11,18 +11,24 @@ Bendis Hoxha
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap');
 h1 {
     color: brown;
-     font-style: italic
+    font-style: italic;
+    font-family: 'Kavoon', cursive;
+    text-align: center;
 }
 h2 {
     color: darkblue;
+    font-family: 'Kavoon', cursive;
+    text-align: center;
 }
 h3 {
-        color: darkblue;
-
+    color: darkblue;
+    font-family: 'Kavoon', cursive;
+    text-align: center;
 }
 h4{
-           color: darkblue; 
+    color: darkblue; 
     font-family: 'Lobster', cursive;
+    text-align: center;
 }
 header {
     background-color: darkred;
@@ -40,8 +46,13 @@ body {margin:0;
     background-color: rgba(204,255,255,0.1);
     text-align: justify; 
     font-size: larger;
-   
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 
 #About {
     padding-top: 2em;
