@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset= "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="landing-page">
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Treatments 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Headache</a>
+      <a href="#">Neck Pain</a>
+      <a href="#">Back Pain</a>
+      <a href="#">Knee Pain</a>
+    </div>
+  </div> 
+      <a href="#news">Workshop</a>
+  <a href="#about">About</a>
+  <a href="#about">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    <footer>
+        <p>
+            &copy; Bhoxha, 2019
+        </p>
+    </footer>
+</body>
+</html>
